@@ -7,10 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
-}
-
-.fa-solid {
-    color: var(--main-color);
+    --color-black:  #000000;
 }
 
 body {
@@ -60,15 +57,14 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px 30px;
 
   }
 
 nav div a {
 
     margin-left: 69px;
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
 
 }
@@ -83,8 +79,8 @@ nav div a:hover {
 nav img
 
 {
-    width : 61.09px;
-    height : 19px;
+    width : 60px;
+    height : 20px;
 }
 
 /****** Introduction site + filtres *******/
