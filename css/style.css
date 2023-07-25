@@ -232,7 +232,6 @@ body {
     gap: 10px;
     padding: 4px 19px; 
     background-color: white;
-    width: auto;
     height: 50px;
     border-radius: 25px;
     border: 2px solid var(--color-grey);
@@ -575,7 +574,7 @@ body {
     padding: 20px;
     align-items: flex-start;
     flex: 1;
-    
+     
  } 
 
 .fmenu__titles {
@@ -656,5 +655,116 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
+    
+    body {
+
+        margin: 0;
+
+    } 
+
+    /***** Navigation ******/
+
+
+    .navigation {
+
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid var(--color-grey);
+    }
+
+    .navigation img {
+
+        width: 63px;
+        height: 19px; 
+    }
+
+    .navigation__menu {
+
+            margin: 0;
+            gap: 100px;
+            
+    }
+
+    .navigation__item1 {
+
+            margin: 0;
+    }
+
+    .navigation__item2 {
+        
+            margin: 0;
+    }
+
+    .navigation__item1:active {
+
+        color: #0065FC ;
+        border-bottom-color: var(--main-color);
+        
+    }
+
+    .navigation__item2:active {
+
+        color: #0065FC ;
+        border-bottom-color: var(--main-color);
+        
+    }
+
+    
+    /****** Trie et filtres *******/
+
+
+    .sorting {
+
+        margin: 35px 0 35px 0;
+        padding: 0 20px 0 20px;
+
+    }
+
+
+    .sorting__title {
+
+        margin-bottom: 0;
+
+    }
+
+    .sorting_researchbar {}
+
+    .researchbar__research { 
+
+     /*** changer l'îcone? ***/
+
+    }
+
+    /***** Filters *****/ 
+
+    .filters {
+
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        
+    }
+
+    .filters_description {
+
+        align-self: flex-end;
+
+    }
+    .filter_filterswrapper {
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .filterswrapper__layer2 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .layer2__button {
+
+
+    }
 }
