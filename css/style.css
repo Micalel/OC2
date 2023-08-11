@@ -754,7 +754,7 @@ body {
 /***** Populaires *****/ 
 
 .populaires__cards {
-
+    width:100%;
     flex-direction: row;
 
 }
