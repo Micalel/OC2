@@ -684,11 +684,11 @@ body {
 
 }
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+/* Responsive version (tablet, bigger smartphones, normal size smartphones and the lowest res. you can get with a smartphone) */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1026px) {
 
     .euro {
 
@@ -754,7 +754,8 @@ body {
 /***** Populaires *****/ 
 
 .populaires__cards {
-    width:100%;
+
+
     flex-direction: row;
 
 }
@@ -802,7 +803,7 @@ body {
 
     body {
 
-        margin: 0;
+        margin: 0 25px 0 25px;
 
     } 
 
@@ -820,22 +821,6 @@ body {
 
     }
 
-
-    /**** Mainwrappers ****/
-
-    .mainwrapper_hebergements {
-
-        border-radius: 0;
-    }
-
-    .mainwrapper_populaires {
-
-        border-radius: 0;
-    }
-
-
-
-}
 
 /* Small devices (phones, less than 770px) */
 @media (max-width: 770.99px) {
@@ -1206,4 +1191,5 @@ body {
     font-size: 16px;
 }
 
+}
 }
