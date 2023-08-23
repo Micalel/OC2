@@ -27,11 +27,11 @@ body {
     box-sizing: border-box;
 }
 
-.section-title {
+/**.section-title {
 
     margin: 0;
     font-size: 22px;
-}
+
 
 .card {
     background-color: white;
@@ -47,7 +47,7 @@ body {
 
 .card-title {
     font-size: 16px;
-}
+} **/
 
 .euro {
     font-weight: 700;
@@ -459,6 +459,7 @@ body {
 
  }
 
+
 /****** Populaires **********/
 
 .populaires__header {
@@ -565,7 +566,7 @@ body {
 
 }
 
-/*** Activité ***/
+/***** Activité *******/
 
 .activities__title {
 
@@ -687,7 +688,18 @@ body {
 /* Responsive version (tablet, bigger smartphones, normal size smartphones and the lowest res. you can get with a smartphone) */
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (max-width: 1150px) {
+
+    body {
+
+        margin: 0 25px 0 25px;
+
+    }
+
+}
+
+/* Medium devices (tablets, less/equal than 1026px) */
 @media (max-width: 1026px) {
 
     .euro {
@@ -785,16 +797,13 @@ body {
 
 }
 
-
 /***** Activities *****/
-
 
 .awrap__cards img {
 
     height: 200px;
 
 }
-
 
 }
 
@@ -821,6 +830,7 @@ body {
 
     }
 
+}
 
 /* Small devices (phones, less than 770px) */
 @media (max-width: 770.99px) {
@@ -1191,5 +1201,4 @@ body {
     font-size: 16px;
 }
 
-}
 }
