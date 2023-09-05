@@ -87,19 +87,19 @@ body {
 
 }
 
-.navigation__item1:hover {
+.navigation__item1:hover,
+.navigation__item2:hover {
 
     color: var(--main-color) ;
     border-top-color: var(--main-color);
     
 }
 
+/*
 .navigation__item2:hover {
-
     color: var(--main-color);
     border-top-color: var(--main-color);
-
-}
+}*/
 
 .navigation img {
 
@@ -308,6 +308,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0px 0px 0px 0px;
+    
 }
 
 .mainwrapper_hebergements {
@@ -1050,6 +1051,7 @@ body {
 
     flex-direction: column;
     margin-top: 15px;
+    width: 100%;
     padding: 0;
 
 }
